@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/clv/!svn/ver/1599/personal/mirowski/GRN_GenomeBiology/ClusterFrontend
+END
+grn_submit.sh
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/clv/!svn/ver/1599/personal/mirowski/GRN_GenomeBiology/ClusterFrontend/grn_submit.sh
+END
+GRN_DistribSearch.m
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/clv/!svn/ver/1599/personal/mirowski/GRN_GenomeBiology/ClusterFrontend/GRN_DistribSearch.m
+END
+grn_debug_submit.sh
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/clv/!svn/ver/1599/personal/mirowski/GRN_GenomeBiology/ClusterFrontend/grn_debug_submit.sh
+END
+send_statespace.sh
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/clv/!svn/ver/1599/personal/mirowski/GRN_GenomeBiology/ClusterFrontend/send_statespace.sh
+END
