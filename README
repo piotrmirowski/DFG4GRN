@@ -1,0 +1,30 @@
+Dynamic Factor Graphs for Gene Regulation Networks
+
+This repository contains the Matlab code for our 2010 Genome Biology paper:
+"Predictive network modeling of the high-resolution dynamic plant 
+transcriptome in response to nitrate"
+G Krouk, P Mirowski, Y LeCun, DE Shasha, G Coruzzi
+
+
+The structure of the folders is as following:
+
+* Arabidopsis/
+contains the Matlab scripts that are called by the main, batch,
+function. For instance, it contains scripts:
+Script_Arabidopsis76_Leave1.m
+Script_Arabidopsis76_Leave1_LARS.m
+which are used for leave-out-last learning of the Arabidopsis GRN
+using mRNA measurements from time points 0, 3, 6, 9, 12 and 15min
+and uses the two last time points (15min and 20min) to evaluate the
+out-of-sample trend.
+
+* DFG4GRN/
+contains all the code for our SSM,
+minus the LARS library, which needs to be installed from the
+bolasso.zip file.
+
+* ClusterFrontend/
+contains functions used for running the cluster code.
+
+
+Please see Matlab file Tutorial.m for an example of how to run the code.
